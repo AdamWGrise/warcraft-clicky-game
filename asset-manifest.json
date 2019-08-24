@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/warcraft-clicky-game/static/css/main.d3bfa71e.chunk.css",
+    "main.js": "/warcraft-clicky-game/static/js/main.d293501f.chunk.js",
+    "main.js.map": "/warcraft-clicky-game/static/js/main.d293501f.chunk.js.map",
+    "runtime~main.js": "/warcraft-clicky-game/static/js/runtime~main.886d4a32.js",
+    "runtime~main.js.map": "/warcraft-clicky-game/static/js/runtime~main.886d4a32.js.map",
+    "static/js/2.02a43346.chunk.js": "/warcraft-clicky-game/static/js/2.02a43346.chunk.js",
+    "static/js/2.02a43346.chunk.js.map": "/warcraft-clicky-game/static/js/2.02a43346.chunk.js.map",
+    "index.html": "/warcraft-clicky-game/index.html",
+    "precache-manifest.c05a74adadc3e7588602e6177a36bd8c.js": "/warcraft-clicky-game/precache-manifest.c05a74adadc3e7588602e6177a36bd8c.js",
+    "service-worker.js": "/warcraft-clicky-game/service-worker.js",
+    "static/css/main.d3bfa71e.chunk.css.map": "/warcraft-clicky-game/static/css/main.d3bfa71e.chunk.css.map",
+    "static/media/img01.png": "/warcraft-clicky-game/static/media/img01.784d0390.png",
+    "static/media/img02.png": "/warcraft-clicky-game/static/media/img02.9d90b427.png",
+    "static/media/img03.png": "/warcraft-clicky-game/static/media/img03.d35b8f38.png",
+    "static/media/img04.png": "/warcraft-clicky-game/static/media/img04.fb02f09f.png",
+    "static/media/img05.png": "/warcraft-clicky-game/static/media/img05.8c4d3bdc.png",
+    "static/media/img06.png": "/warcraft-clicky-game/static/media/img06.bce98df7.png",
+    "static/media/img07.png": "/warcraft-clicky-game/static/media/img07.b43c52fd.png",
+    "static/media/img08.png": "/warcraft-clicky-game/static/media/img08.081dfebc.png",
+    "static/media/img09.png": "/warcraft-clicky-game/static/media/img09.333aa586.png",
+    "static/media/img10.png": "/warcraft-clicky-game/static/media/img10.e9448011.png",
+    "static/media/img11.png": "/warcraft-clicky-game/static/media/img11.88b78288.png",
+    "static/media/img12.png": "/warcraft-clicky-game/static/media/img12.3756a2c8.png",
+    "static/media/img13.png": "/warcraft-clicky-game/static/media/img13.52474bd3.png",
+    "static/media/img14.png": "/warcraft-clicky-game/static/media/img14.30f8ebec.png"
+  }
+}
