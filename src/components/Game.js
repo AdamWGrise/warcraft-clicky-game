@@ -3,35 +3,36 @@ import Navbar from "./Navbar";
 import ScoreBar from "./ScoreBar";
 import GameField from "./GameField";
 import chars from "./chars.js";
-import "./Char.css"
 
 class Game extends React.Component {
 
+    
     state = {
         score: 0,
         topScore: 0,
-    
-    messageColor: '',
-    messageText: 'Click a picture to begin. Click a new picture each time to reach a high score!',
-    allChars: this.shuffleArray(),
-    wasClicked:[],
-    shake:false
+        messageColor: '',
+        messageText: 'Click a picture to begin. Click a new picture each time to reach a high score!',
+        charsArr: chars,
+        wasClicked:[],
+        shake:false
     };
 
     clickEvent = this.checkClicked.bind(this);
 
-    shuffleArray() {
-        const newArr = chars.slice();
-        const shuffleArr = [];
-        while (newArr.length > 0) {
-            shuffleArr.push(newArr.splice(Math.floor(Math.random() * newArr.length), 1)[0]);
+    shufflePics(arr) {
+        var m = arr.length, t, i;
+        while (m) {
+            i = Math.floor(Math.random() * m--);
+            t = arr[m];
+            arr[m] = arr[i];
+            arr[i] = t;
         }
-        return shuffleArr;
+        return arr;
     }
 
     checkClicked(clickedItem) {
         const prevState = this.state.wasClicked.slice();
-        const shuffled = this.shuffleArray();
+        const shuffled = this.shufflePics(this.state.charsArr);
 
         let score = this.state.score;
         let topScore = this.state.topScore;
@@ -81,13 +82,11 @@ class Game extends React.Component {
                     messageColor = {state.messageColor}
                     messageText = {state.messageText}
                 />
-                <div className="container">
-                    <GameField
+                <GameField
                     shake={state.shake}
-                    chars={state.allChars}
+                    chars={state.charsArr}
                     clickEvent={this.clickEvent}
-                    />
-                </div>
+                />
                 {/* Footer */}
             </div>
         )

@@ -13,8 +13,7 @@ import mTroll from './charImages/img12.png';
 import mTauren from './charImages/img13.png';
 import fUndead from './charImages/img14.png';
 
-
-const chars = [
+var chars = [
     mHuman,
     mDwarf,
     mNElf,
