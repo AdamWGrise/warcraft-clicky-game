@@ -51,7 +51,7 @@ class Game extends React.Component {
             return this.setState({
                 score: score,
                 topScore: topScore,
-                messageColor: 'incorrect',
+                messageColor: '#00ff00',
                 messageText: 'Incorrect!',
                 allCharacters: shuffled,
                 wasClicked: [0],

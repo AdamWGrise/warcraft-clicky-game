@@ -2,40 +2,26 @@ import React from 'react'
 
 const style = {
   custom: {
-    fontFamily: "Merienda"
+    fontFamily: "Merienda",
+    backgroundColor: "#150704"
   }
 }
 
 function Navbar() {
     return (<div style={style.custom}>
     <link href="https://fonts.googleapis.com/css?family=Merienda&display=swap" rel="stylesheet"></link>
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a className="navbar-brand" href="https://www.youtube.com/kyoopihd">React Warcraft Clicky Game</a>
+    <nav className="navbar navbar-expand-lg navbar-dark">
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
   
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav mr-auto">
-        <li className="nav-item active">
-          <a className="nav-link" href="https://www.youtube.com/kyoopihd">Home <span className="sr-only">(current)</span></a>
+        <li className="nav-item">
+          <a className="nav-link" href="https://github.com/AdamWGrise/warcraft-clicky-game" target="_blank">Code (GitHub)</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="https://www.youtube.com/kyoopihd">Link</a>
-        </li>
-        <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="https://www.youtube.com/kyoopihd" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a className="dropdown-item" href="https://www.youtube.com/kyoopihd">Action</a>
-            <a className="dropdown-item" href="https://www.youtube.com/kyoopihd">Another action</a>
-            <div className="dropdown-divider"></div>
-            <a className="dropdown-item" href="https://www.youtube.com/kyoopihd">Something else here</a>
-          </div>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link disabled" href="https://www.youtube.com/kyoopihd">Disabled</a>
+          <a className="nav-link" href="https://adamwgrise.github.io/Portfolio/" target="_blank">About the Maker</a>
         </li>
       </ul>
       {/* <form className="form-inline my-2 my-lg-0">

@@ -1,4 +1,5 @@
 import React from "react";
+import css from "./styles.css";
 
 const styles = {
     scorebar: {
