@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3766e6365398ca00b660f41b61d67c36",
+    "revision": "269d625ab582e66b29c7b82c85ab1c9c",
     "url": "/warcraft-clicky-game/index.html"
   },
   {
-    "revision": "7a6eb7ea9ab5390b4260",
-    "url": "/warcraft-clicky-game/static/css/main.4b2ccf58.chunk.css"
+    "revision": "cbdf91e54bc38eb2c288",
+    "url": "/warcraft-clicky-game/static/css/main.b1670ead.chunk.css"
   },
   {
     "revision": "65e40424f4f5e501e869",
     "url": "/warcraft-clicky-game/static/js/2.d4c57acb.chunk.js"
   },
   {
-    "revision": "7a6eb7ea9ab5390b4260",
-    "url": "/warcraft-clicky-game/static/js/main.959111e8.chunk.js"
+    "revision": "cbdf91e54bc38eb2c288",
+    "url": "/warcraft-clicky-game/static/js/main.3081763d.chunk.js"
   },
   {
     "revision": "64381fba9e7cb40da68d",

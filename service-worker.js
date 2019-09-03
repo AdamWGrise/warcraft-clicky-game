@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/warcraft-clicky-game/precache-manifest.7ed61300b532c0ae2c336fb10d4a590a.js"
+  "/warcraft-clicky-game/precache-manifest.dfa9264fbdf71b51128d00eb3c865c60.js"
 );
 
 self.addEventListener('message', (event) => {
